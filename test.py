@@ -11,7 +11,7 @@ aksara_jawa = ['ha','ca','ra','ka','na','da','ta','sa','wa','la','pa','dha','ja'
 
 print('Loading images...\n')
 
-path = f'D:\\DEV\\LatihanPython\\2025\\latihan\\aksara jawa\\train_white'
+path = f'train_white'
 _img, _label = [], []
 for file in os.listdir(path):
   filename = os.fsdecode(file)
